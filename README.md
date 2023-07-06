@@ -7,7 +7,10 @@ The network generates text that resembles Shakespearean language, allowing users
 The code for the Shakespearean Text Generator can be found in the file `Shakespearean-Text-Generator.ipynb`, while the data used by the generator is stored in the file `input.txt`. Training the model on Google Colab T4 GPU takes around 45 minutes.
 
 The transformed image that was utilized is displayed below:
-![Shakespearean Text Generator](https://github.com/farhad-dalirani/Shakespearean-Text-Generator/blob/main/transformer_network.jpg)
+<p align="center">
+  <img src="https://github.com/farhad-dalirani/Shakespearean-Text-Generator/blob/main/transformer_network.jpg" alt="Shakespearean Text Generator" width="450">
+</p>
+
 
 The used transformer is very simple. In this model, the tokens are based on character-level encoding, comprising a total of 65 tokens as outlined below: 
 ```
